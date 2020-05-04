@@ -1,0 +1,26 @@
+# 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Reverse number
+
+##########################################################################
+
+Question : Reverse a given number
+
+####################### Program Code #####################################
+
+num = int(input("Enter a number: "))
+reversnum = 0
+while num > 0:
+    reminder = num % 10
+    reversnum = (reversnum * 10) + reminder
+    num = num // 10
+print("The revers of a provoded number is", reversnum)
+
+
+====================== Output ===========================
+
+Enter a number: 1947
+7491
+
+Process finished with exit code 0
+
