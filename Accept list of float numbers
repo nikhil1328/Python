@@ -1,0 +1,30 @@
+# 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Accept list of float numbers as a input from user
+
+##########################################################################
+
+Question : Accept list of float numbers as a input from user
+
+
+####################### Program Code #####################################
+
+fl= []
+n = int(input("Enter the list size: "))
+for i in range(0, n):
+    print("Enter the number at location", i, ":")
+    j = float(input())
+    fl.append(j)
+print(fl)
+
+====================== Output ===========================
+
+Enter the number at location 0 :
+22.1
+Enter the number at location 1 :
+35.4
+Enter the number at location 2 :
+228.4
+[22.1, 35.4, 228.4]
+
+Process finished with exit code 0
