@@ -1,0 +1,36 @@
+# 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Return True if first and last number of a list is same.
+
+##########################################################################
+
+Question : Given a list of numbers, return True if first and last number of a list is same
+Expected Output:
+
+Given list is  [10, 20, 30, 40, 10]
+result is True
+Given list is  [10, 20, 30, 40, 50]
+result is False
+
+####################### Program Code #####################################
+
+l1 = [10, 20, 30, 40, 10]
+l2 = [10, 20, 30, 40, 50]
+if l1[0] == l1[-1]:
+    print("Given list is",l1, "\nResult is True")
+else:
+    print("Given list is",l1, "\nResult is False")
+if l2[0] == l2[-1]:
+    print("Given list is",l2, "\nResult is True")
+else:
+    print("Given list is",l2, "\nResult is False")
+
+
+============================ OutPut =============================
+
+Given list is [10, 20, 30, 40, 10] 
+Result is True
+Given list is [10, 20, 30, 40, 50] 
+Result is False
+
+Process finished with exit code 0
