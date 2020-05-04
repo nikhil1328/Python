@@ -1,0 +1,21 @@
+
+# 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Print the characters which are present at an even index of a string..
+
+Accept string from a user and display only those characters which are present at an even index number.
+
+str = "Its a wonderful day"
+for i in range(0,len(str)-1, 2):
+    print("index[",i,"]", str[i])
+
+Output:
+index[ 0 ] I
+index[ 2 ] s
+index[ 4 ] a
+index[ 6 ] w
+index[ 8 ] n
+index[ 10 ] e
+index[ 12 ] f
+index[ 14 ] l
+index[ 16 ] d
