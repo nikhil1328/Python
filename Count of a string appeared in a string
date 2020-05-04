@@ -1,0 +1,23 @@
+# 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Count of a string appeared in a string.
+
+##########################################################################
+
+Question : Return the total count of string “Twinkle” appears in the given string.
+
+Provided String : "Twinkle, Twinkle, Little Star"
+String to count : "Twinkle"
+Expected Output:
+Twinkle appeared 2 times.
+
+####################### Program Code #####################################
+
+s = "Twinkle, Twinkle, Little Star"
+print("Twinkle appeared", s.count("Twinkle"), "times.")
+
+====================== Output ===========================
+
+Twinkle appeared 2 times.
+
+Process finished with exit code 0
