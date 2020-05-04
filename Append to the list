@@ -1,0 +1,29 @@
+# 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Append the list.
+
+##########################################################################
+
+Question : Given a two list of numbers create a new list such that new list should contain only odd numbers from the first list and even numbers from the second list.
+
+####################### Program Code #####################################
+
+f1 = [10, 20, 23, 11, 17]
+f2 = [13, 43, 24, 36, 12]
+f3 = []
+for i in f1:
+    if i % 2 != 0:
+        f3.append(i)
+for i in f2:
+    if i%2 ==0:
+        f3.append(i)
+print("First List ", f1, "\nSecond List ", f2)
+print("The result list is", f3)
+
+====================== Output ===========================
+
+First List  [10, 20, 23, 11, 17] 
+Second List  [13, 43, 24, 36, 12]
+The result list is [23, 11, 17, 24, 36, 12]
+
+Process finished with exit code 0
