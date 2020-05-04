@@ -1,0 +1,25 @@
+  # 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Accept multiple strings from single input() call
+
+
+##########################################################################
+
+Question : Accept multiple strings from single input() call
+
+
+####################### Program Code #####################################
+
+
+str1, str2, str3 = input("Enter three string: ").split()
+print("String One: ", str1, "\nString Two: ", str2, "\nString Three: ", str3)
+
+
+====================== Output ===========================
+
+Enter three string: Jai Shree Ram!
+String One:  Jai 
+String Two:  Shree 
+String Three:  Ram!
+
+Process finished with exit code 0
