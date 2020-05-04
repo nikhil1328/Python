@@ -1,0 +1,40 @@
+
+# 4th May 2020
+# Wirtten By NIKHIL KULKARNI
+# Use case: Removing character from a string.
+
+Given a string and an integer number n, remove characters from a string starting from zero up to n and return a new string.
+
+############### Pyhton Code ################
+
+s = input("Inter a string: ")
+n = int(input("Enter a number: "))
+if n < len(s):
+    print(s[n:])
+else:
+    print("Error- Number should be smaller than the length of the string")
+    
+
+
+============== Output ============
+
+Inter a string: Its a nice day.
+Enter a number: 4
+a nice day.
+
+Process finished with exit code 0
+
+
+
+Inter a string: Its a nice day.
+Enter a number: 20
+Error- Number should be smaller than the length of the string
+
+Process finished with exit code 0
+
+
+
+====================================================
+
+
+    
